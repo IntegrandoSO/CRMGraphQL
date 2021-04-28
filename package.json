@@ -1,0 +1,22 @@
+{
+  "name": "crmqraphql",
+  "version": "1.0.0",
+  "description": "CRM",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "author": "JanMax",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "apollo-server": "^2.22.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.3"
+  }
+}
